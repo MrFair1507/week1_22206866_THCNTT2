@@ -1,0 +1,22 @@
+.sidebar {
+    background-color: #ff9900; /* Orange background */
+    width: 30%;
+   padding: 10px;
+  }
+  .sidebar ul {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      list-style: none;
+      padding-left: 10px;
+    }
+    
+    .sidebar li {
+      width: 100%;
+      padding: 10px 0;
+      border-bottom: 1px solid gray;
+      margin: 10px 0;
+      color: white;
+      font-size: 18px;
+      cursor: pointer;
+    }
