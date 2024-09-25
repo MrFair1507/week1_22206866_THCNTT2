@@ -1,0 +1,19 @@
+.led__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.on__btn{
+    height: 40px;
+    background-color: #00FFFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.off__btn{
+    height: 40px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;   
+}
